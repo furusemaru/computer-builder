@@ -21,7 +21,7 @@ CPU、GPU、Memory Card、Storage を選択してAdd PC を押下する
 
 ## 画面
 スタート画面です。
-![image](https://github.com/teamDorange/work-space/assets/78686862/40d2ffa9-4427-4273-9fc4-10da5004192f)
+![image](https://github.com/furusemaru/computer-builder/assets/138269691/ab290323-6c42-48f6-91c3-1f4a076d251e)
 
 おみくじの結果画面です。
-![image](https://github.com/teamDorange/work-space/assets/78686862/020cffca-76c8-42b0-8df7-efcee1c6994c)
+![image](https://github.com/furusemaru/computer-builder/assets/138269691/0eb1b132-f65b-4e7e-b0bc-f225cef03e89)
