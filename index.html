@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Computer Builder</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="d-flex justify-content-start flex-wrap bg-white">
+            <div class="col-12 text-center bg-dark text-white">
+                <h1 class="font-weight-normal pb-2">Build Your Own Computer</h1>
+            </div>
+            <div class="step1 col-12 py-3 pl-1" id="step1">
+                <h3 class="font-weight-normal pb-3">step1: Select Your CPU</h3>
+                <div class="d-flex">
+                    <h4 class="font-weight-normal px-2">brand</h4>
+                    <select id="cpuBrand" class="select-brand form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2">model</h4>
+                    <select id="cpuModel" class="select-model form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="step2 col-12 py-3 pl-1" id="step2">
+                <h3 class="font-weight-normal pb-3">step2: Select Your GPU</h3>
+                <div class="d-flex">
+                    <h4 class="font-weight-normal px-2">brand</h4>
+                    <select id="gpuBrand" class="select-brand form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2">model</h4>
+                    <select id="gpuModel" class="select-model form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                </div>    
+            </div>
+            <div class="step3 col-12 py-3 pl-1" id="step3">
+                <h3 class="font-weight-normal pb-3">step3: Select Your Memory Card</h3>
+                <div class="d-flex">
+                    <h4 class="font-weight-normal px-2">How many?</h4>
+                    <select id="memoryCardNum" class="select-number form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2 ">brand</h4>
+                    <select id="memoryCardBrand" class="select-brand form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2">model</h4>
+                    <select id="memoryCardModel" class="select-model form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="step4 col-12 py-3 pl-1" id="step4">
+                <h3 class="font-weight-normal pb-3">step4: Select Your Storage</h3>
+                <div class="d-flex">
+                    <h4 class="font-weight-normal px-2">HDD or SSD</h4>
+                    <select id="storageType" class="storage form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                        <option>HDD</option>
+                        <option>SSD</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2">storage</h4>
+                    <select id="storageSize" class="storage form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2">brand</h4>
+                    <select id="storageBrand" class="storage form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                    <h4 class="font-weight-normal px-2">model</h4>
+                    <select id="storageModel" class="storage form-select form-select-lg p-2 mx-2" aria-label="Default select example">
+                        <option selected>-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-4 text-center text-white pb-3">
+                <button type="button" class="btn btn-primary" id = "addPc">Add PC</button>
+            </div>
+            <div class="col-12" id="displayPC">
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
